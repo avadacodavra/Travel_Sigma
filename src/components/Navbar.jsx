@@ -15,7 +15,7 @@ const NavBar = () => {
     }
 
   return (
-    <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-black'>
+    <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white'>
         <div>
         <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>BEACHES.</h1>
         </div>
