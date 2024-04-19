@@ -5,6 +5,7 @@ import Destinations from './components/Destinations.jsx';
 import Search from './components/Search.jsx';
 import Selects from './components/Selects.jsx';
 import Carousel from './components/Carousel';
+import Footer from './components/Footer';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Search></Search>
       <Selects></Selects>
       <Carousel></Carousel>
+      <Footer></Footer>
     </div>
   );
 }
